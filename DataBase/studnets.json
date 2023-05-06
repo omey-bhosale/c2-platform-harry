@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "6454d4452a7ecaabe4d93a88"
+  },
+  "name": "omkar",
+  "email": "omkar@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6454eec0ac959a61e3b2d145"
+  },
+  "name": "joe",
+  "email": "joe@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6456043a98b9c5738acb36b2"
+  },
+  "name": "omkar jawalkar",
+  "email": "jawalkar@gmail.com",
+  "userName": "RedEye",
+  "instituteCode": 42010,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64560538471a3cb72caa59a6"
+  },
+  "name": "harry",
+  "email": "joe@gmail.com",
+  "userName": "harry_17",
+  "instituteCode": 42010,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64560568471a3cb72caa59a8"
+  },
+  "name": "omkar jawalkar",
+  "email": "jawalkar@gmail.com",
+  "userName": "RedEye",
+  "instituteCode": 42010,
+  "__v": 0
+}]
