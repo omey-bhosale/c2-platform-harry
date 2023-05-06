@@ -1,42 +1,70 @@
 [{
   "_id": {
-    "$oid": "6454d4452a7ecaabe4d93a88"
+    "$oid": "64561f97bb95544c1c81d30e"
   },
-  "name": "omkar",
-  "email": "omkar@gmail.com",
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "6454eec0ac959a61e3b2d145"
-  },
-  "name": "joe",
-  "email": "joe@gmail.com",
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "6456043a98b9c5738acb36b2"
-  },
-  "name": "omkar jawalkar",
-  "email": "jawalkar@gmail.com",
-  "userName": "RedEye",
+  "prn_no": "1111",
+  "student_name": "John Doe",
   "instituteCode": 42010,
+  "departmentCode": "CS",
+  "gfg_easy": 10,
+  "gfg_med": 5,
+  "gfg_hard": 2,
+  "leet_easy": 8,
+  "leet_med": 4,
+  "leet_hard": 1,
+  "github_commit_count": 100,
+  "linkedin_internship_count": 2,
+  "hackerrank_all_sum_count": 500,
+  "userName": "harry_7",
+  "mobile_no": {
+    "$numberLong": "9112011007"
+  },
+  "email_id": "john.doe@example.com",
   "__v": 0
 },{
   "_id": {
-    "$oid": "64560538471a3cb72caa59a6"
+    "$oid": "64561fbabb95544c1c81d310"
   },
-  "name": "harry",
-  "email": "joe@gmail.com",
-  "userName": "harry_17",
+  "prn_no": "72176542E",
+  "student_name": "Omkar Bhosale",
   "instituteCode": 42010,
+  "departmentCode": "CS",
+  "gfg_easy": 10,
+  "gfg_med": 5,
+  "gfg_hard": 2,
+  "leet_easy": 8,
+  "leet_med": 4,
+  "leet_hard": 1,
+  "github_commit_count": 100,
+  "linkedin_internship_count": 2,
+  "hackerrank_all_sum_count": 500,
+  "userName": "harry_7",
+  "mobile_no": {
+    "$numberLong": "9112011007"
+  },
+  "email_id": "bhosale@example.com",
   "__v": 0
 },{
   "_id": {
-    "$oid": "64560568471a3cb72caa59a8"
+    "$oid": "64561fe0bb95544c1c81d312"
   },
-  "name": "omkar jawalkar",
-  "email": "jawalkar@gmail.com",
-  "userName": "RedEye",
+  "prn_no": "721765444E",
+  "student_name": "Omkar jawalkar",
   "instituteCode": 42010,
+  "departmentCode": "CS",
+  "gfg_easy": 10,
+  "gfg_med": 5,
+  "gfg_hard": 2,
+  "leet_easy": 8,
+  "leet_med": 4,
+  "leet_hard": 1,
+  "github_commit_count": 100,
+  "linkedin_internship_count": 2,
+  "hackerrank_all_sum_count": 500,
+  "userName": "jawalkar18",
+  "mobile_no": {
+    "$numberLong": "9112011667"
+  },
+  "email_id": "jawalkare@example.com",
   "__v": 0
 }]
