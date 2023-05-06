@@ -61,10 +61,11 @@ app.get("/dashboard/:instituteCode", async (req, res) => {
 
 
 app.post("/create-user", async (req, res) => {
-    const { name,email,userName,instituteCode } = req.body;
-    console.log(name,email,userName,instituteCode);
+    const { prn_no,student_name,instituteCode,departmentCode,gfg_easy,gfg_med,gfg_hard,leet_easy,leet_med,leet_hard,github_commit_count,linkedin_internship_count,hackerrank_all_sum_count,userName,mobile_no,email_id} = req.body;
+
+    console.log(prn_no,student_name,instituteCode,departmentCode,gfg_easy,gfg_med,gfg_hard,leet_easy,leet_med,leet_hard,github_commit_count,linkedin_internship_count,hackerrank_all_sum_count,userName,mobile_no,email_id);
     try {
-        const data = await Student.create({ name,email,userName,instituteCode });
+        const data = await Student.create({prn_no,student_name,instituteCode,departmentCode,gfg_easy,gfg_med,gfg_hard,leet_easy,leet_med,leet_hard,github_commit_count,linkedin_internship_count,hackerrank_all_sum_count,userName,mobile_no,email_id});
         res.status(201).json({
             status: "ok",
             data: data
